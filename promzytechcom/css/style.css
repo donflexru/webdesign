@@ -1,0 +1,353 @@
+body{
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+img{
+    max-width: 8;
+}
+#Home{
+    background-image: url(../images/742b7f1be85037838973443e21b8e114.jpg);
+    min-width: fit-content;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    color: white;
+     
+}
+
+#Home h1 {
+    color: white;
+    font-family: sans-serif;
+   
+
+}
+#Home p{
+    font-size: 25px;
+    text-align: center;
+    line-height: 0.875em;
+    min-width: 40%;
+}
+fieldset{
+    display: inline;
+}
+legend{
+   font-weight: 800;
+   color: blue;
+   font-family: Arial, Helvetica, sans-serif; 
+}
+ a optgroup:hover{
+    color: rgb(182, 214, 93);
+  
+
+
+}
+a{
+    text-decoration: none;
+   color: rgb(255, 255, 255);
+}
+strong{
+    color: yellowgreen;
+}
+#images{
+    text-align: center;
+ margin: 0px auto;
+  width: 100%;  
+}
+#images img{
+   
+}
+
+.top-nav{
+    background-color: white;
+    height: 50px;
+    margin-top: 0px;
+    text-align: center;
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    width: 100%;
+}
+.top-nav a{
+    display: inline-block;
+    line-height: 3em;
+    width: 20vw;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+   
+}
+a:hover{
+    color: brown;
+}
+
+.Get in touch{
+    background-color: red;
+}
+
+#Purchases{
+background-image: url(../images/1892789.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: auto;
+background-color: white;
+border-top: 2px black;
+border-top-style: solid;
+color: white;
+opacity: 0.7;
+}
+#Purchases h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+.side{
+    position: fixed;
+    right: 10px;
+    
+   
+}
+#email-pos{
+    position: fixed;
+    right: 100px;
+    bottom: 260px;
+    
+}
+.side #image1{
+    opacity: 0.5;
+}
+ .side #image1:hover{
+    opacity: 1.0;
+    transition: ease-out;
+}
+#call{
+    position: fixed;
+  top: 390px;
+    right: 110px;
+    bottom: 200px;
+    
+   
+
+}
+#passage{
+    padding: 15px;
+    position: relative;
+   top: 50px;
+   left: 5%;
+}
+@media (max-width:640px){
+    #call{
+    position: fixed;
+     top: 480px;
+     font-size: 25px;
+     color: rgb(216, 152, 152);
+   
+        
+    }
+    #email-pos{
+       top: 560px; 
+       font-size: 25px;
+       color: rgb(179, 111, 104);
+    }
+}
+.pics1:hover{
+    width: 305px;
+    opacity: 0.9;
+}
+.pics2:hover{
+    opacity: 0.5;
+    width: 305px;
+}.pics3:hover{
+    opacity: 0.5;
+    width: 505px;
+}
+.pics4:hover{
+    opacity: 0.5;
+    width: 405px;
+}
+.pics5:hover{
+    opacity: 0.5;
+    width: 305px;
+}
+.pics6:hover{
+    opacity: 0.5;
+    width: 305px;
+}
+
+#Purchases img{
+    border: black 5px solid;
+}
+#Purchases p{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+#Services{
+    background-image: url(../images/1_computer-repair-wordpress-themes.jpg);
+    background-size: contain;
+    min-width: fit-content;
+   background-position-x: center;
+   background-position-y: center;
+    background-repeat: no-repeat;
+    border-top: 2px black;
+    border-top-style: solid;
+    height: auto;
+   
+    
+    }
+    #Services h1{
+        font-size: 40px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      color: whitesmoke;
+      font-weight: 600;
+      margin-bottom: 50px;
+      opacity: 1;
+      margin-left: 60px;
+      
+    }
+    #Services #passage{
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 300;
+        line-height: 1.2em;
+       min-width: auto;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       
+        text-align: center;
+        color: white;
+        margin-top: 250px;
+        background-color: gray;
+        border: 2px solid black;
+        width: 90%;
+        margin: 0px auto;
+        margin-left: 80px;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+        left: 0px;
+       
+    }
+    #passage p{
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 800;
+    }
+  .Get in touch{
+    background-color: red;
+    width: 30%;
+  }
+   
+        #Contact{
+            height: auto;
+            background-color: white;
+            background-image: url(../images/how-to-create-cool-website-backgrounds-the-ultimate-guide.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-top: 2px solid black;
+            opacity: 13.0;
+            }
+
+              #Contact h1{
+                  font-size: 40px;
+                  font-family: Verdana, Geneva, Tahoma, sans-serif;
+                  font-weight: 600;
+                  text-align: center;
+                  color: white;
+              }
+                   
+              #Contact p{
+                  font-size: 20px;
+                  font-family: serif;
+                  font-weight: 200;
+                  line-height: 1.5em;
+              }
+              .myform {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                min-height: 500px;
+                text-align: left;
+                padding: 10px;
+                max-width: 800px;
+                margin: 0 auto;
+                background-color: rgba(0, 0, 0,0.5);
+            }
+            .rowform{
+                display: flex;
+                justify-content: space-between;
+                
+                width: 100%;
+                margin: 0 auto;
+            }
+             .main img{
+               margin: 0px auto;
+               text-align: center;
+               width: 40%;
+               clear: both;
+               display: flexbox; 
+              border-left: thick;
+            }
+            
+            #email #name, #subject{
+                width: 100%;
+                height: 50px; 
+                font-size: 1.5em; 
+            }
+            #email{
+                height: 35px;
+                width: 95%;
+                opacity: 0.85;
+            }
+            #name{
+                height: 35px;
+                width: 95%;  
+                opacity: 0.85;
+            }
+            #message{
+               width: 100%;
+               font-size: 1.5em;
+               opacity: 0.85; 
+             }
+             .message button{
+                height: 70px;
+                width: 100%;
+                background-color: salmon; 
+                font-size: 2em; 
+             }
+             .message button:hover{
+                 background-color: red;
+                  color: white;
+             }
+            .rowform .name, .rowform .email{
+                display: block;
+               
+                width: 100%;
+            
+            }
+            .myform .subject, .myform .message{
+                width: 80%;
+                margin: 0px auto;
+            }
+            label{
+                color: white;
+                display: block;
+                padding: 0;
+                margin: 0;
+            }
+            .subject{
+                opacity: 0.875;
+            }
